@@ -1,0 +1,114 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+
+% Nom de la personne
+\name{Jack}{Thay}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+
+%  Titre du poste
+\begin{center}\textbf{Ingénieur en logistique, support et sécurité informatique}\end{center}
+
+%  Informations sur la personne
+\begin{center}
+\begin{tabular}{ c c c c }
+\faBirthdayCake \enspace 36 ans \enspace & \faMobile\enspace +33 6 61 14 17 55 \enspace & \faEnvelope\enspace jacky.thay@yahoo.com \enspace & \faHome\enspace Paris, France
+\end{tabular}
+\begin{tabular}{ c c c }
+\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/jack-thay-179088291}{in/jack-thay-179088291 } &
+\faGithub\enspace \color{blue} \href{https://github.com/JackThay}{github.com/JackThay } & \faLanguage\enspace Français, Anglais(C1), Japonais(N5 en cours)
+\enspace
+\end{tabular}
+\end{center}
+
+\section{Profile}
+{Actuellement agent de logistique et support informatique dans la fonction publique, je cherche à évoluer vers de nouvelles responsabilités et franchir une nouvelle étape dans ma carrière..}
+
+\section{Compétences}
+\subsection{Software}
+{\textbf{Outils réseaux:} Wireshark, Cisco Packet Tracer, OMNeT++ $|$
+\textbf{Sécurité informatique:} Hashcat $|$
+\textbf{Développement collaboratif:} GitHub, Apache Subversion $|$
+\textbf{Infographie:} Photoshop $|$
+\textbf{Modélisations 3D:} Solid Works $|$
+\textbf{Bureautique:} Microsoft Word, Excel, Access, Powerpoint, LaTeX $|$
+\textbf{Base de données:} SQL}
+\subsection{Hardware}
+{\textbf{Fortinet:} Fortigate 30E, Fortigate 301E $|$ 
+\textbf{Huawei Switch:} Utilisation des commandes VRP $|$
+\textbf{Cisco Switch:} Utilisation des commandes IOS $|$
+\textbf{Dahua Security:} Configuration poste de commande pour CCTV}
+
+\section{Expériences Professionnelles}
+
+% Expérience à Aubervilliers
+\customcventry{04/2024 ‐ present}{{\color{blue}\href{https://www.aubervilliers.fr/}{(Ville d’Aubervilliers)}}}{Logistique, cybersécurité et support informatique,}{Aubervilliers 93300}{}
+{
+{
+\begin{itemize}
+[leftmargin=0.6cm, label={\textbullet}]
+\item 	\textbf{Ingénieur sécurité réseau:} assurer la supervision et le renforcement de la sécurité réseau incluant les switchs, firewalls, segmentation des LAN, vidéosurveillance pour les systèmes sensibles de la commune.
+\\ - Réaction et gestion des incidents liés aux cyberattaques lors des JO 2024.
+\\ - Analyse des rapports fournis par notre prestataire Orange Cyberdéfense.
+\\ - Installation et configuration de switches réseau pour les nouveaux départements de la ville.
+\\ - Participation aux réunions du département informatique concernant les nouvelles solutions matérielles et logicielles destinées à renforcer la sécurité du système d’information.
+\item \textbf{Responsable de projet régie audio et vidéo:} Responsable de la rénovation de la régie audio et vidéo de l’hôtel de ville.
+\\ - Organisation et animation de réunions de pilotage du projet.
+\\ - Coordination interservices pour la mise en œuvre des travaux.
+\\ - Modernisation et renouvellement des équipements informatiques et audiovisuels.
+\item \textbf{Ingénieur réseau pour les élections européennes 2024:} chargé de la configuration, du déploiement sécurisé et de la supervision de l’infrastructure réseau.
+\end{itemize}
+}
+}
+% Expérience au bar
+\customcventry{09/2012 ‐ 08/2021}{{\color{blue}\href{https://annuaire-entreprises.data.gouv.fr/etablissement/48509057500013}{(Bar Tabac "Le Saint Gall")}}}{Vente et conseil client,}{Paris 75018}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item 	\textbf{Gestionnaire de l’entreprise:} encadrement et formation des collaborateurs, gestion de la relation client et supervision de la trésorerie.
+\end{itemize}}}
+
+ % Expérience à La Poste
+\customcventry{09/2009 ‐ 06/2011}{{\color{blue}\href{https://www.laposte.fr/}{(La Poste)}}}{Management,}{Paris 75012}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item 	\textbf{Assistant de chef d'équipe:} coordination des tâches et le suivi opérationnel du service avec l’organisation quotidienne du travail, la répartition des missions et le suivi des priorités.
+\end{itemize}}}
+
+\section{Diplômes et certifications}
+{\begin{itemize}[label=\textbullet]
+      \item \textbf{Master et Maîtrise “Informatique - Réseaux”} (2024) - \underline{\color{blue}\href{https://www.sorbonne-universite.fr/}{Sorbonne Université}}
+      \item \textbf{Licence “Informatique et Applications”} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
+      \item \textbf{Diplôme universitaire de technologie "Informatique"} (2020) - \underline{\color{blue}\href{https://google.com/}{IUT de Paris}}
+      \item \textbf{Brevet de technicien supérieur “Management des Unités Commerciales”} (2011) - \underline{\color{blue}\href{http://lyc-arago.ac-paris.fr}{Lycée Arago}}
+     \item \textbf{Certification CECRL d’anglais niveau C1} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
+     \item \textbf{Formation Huawei Network Controller Engine} (2024) - \underline{\color{blue}\href{https://e.huawei.com}{Huawei}} 
+     \item \textbf{Google Cybersecurity Professional Certificate} (2025) - \underline{\color{blue}\href{https://www.coursera.org/account/accomplishments/specialization/JBFOU5FDFE4H}{Google Career}} 
+  \end{itemize}} 
+\hspace*{\fill} \emph{CV codé en LaTeX}
+\end{document}
