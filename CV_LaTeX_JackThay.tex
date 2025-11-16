@@ -2,6 +2,8 @@
 \moderncvstyle{banking}
 \moderncvcolor{black}
 \nopagenumbers{}
+
+% Imports
 \usepackage[utf8]{inputenc}
 \usepackage{ragged2e}
 \usepackage[scale=0.915]{geometry}
@@ -13,7 +15,7 @@
 \usepackage{amssymb}
 
 % Nom de la personne
-\name{Jack}{Thay}
+\name{Jack} {Thay} %{ジャック タイ}
 \newcommand*{\customcventry}[7][.13em]{
 \begin{tabular}{@{}l}
 {\bfseries #4} \
@@ -39,8 +41,8 @@
 
 %  Informations sur la personne
 \begin{center}
-\begin{tabular}{ c c c c }
-\faBirthdayCake \enspace 36 ans \enspace & \faMobile\enspace +33 6 61 14 17 55 \enspace & \faEnvelope\enspace jacky.thay@yahoo.com \enspace & \faHome\enspace Paris 20ème, France
+\begin{tabular}{ c c c c c }
+\faBirthdayCake \enspace 36 ans \enspace & \faCar \enspace Permis B \enspace & \faMobile\enspace +33 6 61 14 17 55 \enspace & \faEnvelope\enspace jacky.thay@yahoo.com \enspace & \faHome\enspace Paris 20ème, France
 \end{tabular}
 \begin{tabular}{ c c c }
 \faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/jack-thay-179088291}{in/jack-thay-179088291 } &
@@ -50,7 +52,7 @@
 \end{center}
 
 % Paragraphe d'accroche
-{Après une première carrière dans la vente, je me suis reconverti dans le domaine informatique et exerce aujourd’hui en tant qu'agent de logistique, support informatique et administrateur réseau dans la fonction publique. Je souhaite désormais évoluer vers de nouvelles responsabilités et franchir une nouvelle étape dans ma carrière.}
+\textit{Après une première carrière dans la vente, je me suis reconverti dans le domaine informatique et exerce aujourd’hui en tant qu'agent de logistique, support informatique et administrateur réseau dans la fonction publique. Je souhaite désormais évoluer vers de nouvelles responsabilités et franchir une nouvelle étape dans ma carrière.}
 
 % Section Compétences
 \section{Compétences}
@@ -118,27 +120,38 @@
     }
 }
 % Expérience au bar
-\customcventry{09/2012 ‐ 08/2021}{{\color{blue}\href{https://annuaire-entreprises.data.gouv.fr/etablissement/48509057500013}{(Bar Tabac "Le Saint Gall")}}}{Vente et conseil client,}{Paris 75018}{}{
-{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
-\item 	\textbf{Gestionnaire de l’entreprise:} encadrement et formation des collaborateurs, gestion de la relation client et supervision de la trésorerie.
-\end{itemize}}}
+\customcventry{09/2012 ‐ 08/2021}{{\color{blue}\href{https://annuaire-entreprises.data.gouv.fr/etablissement/48509057500013}{(Bar Tabac "Le Saint Gall")}}}{Vente et conseil client,}{Paris 75018}{}
+{
+    {
+        \begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+        \item 	\textbf{Gestionnaire de l’entreprise:} encadrement et formation des collaborateurs, gestion de la relation client et supervision de la trésorerie.
+        \end{itemize}
+    }
+}
 
  % Expérience à La Poste
-\customcventry{09/2009 ‐ 06/2011}{{\color{blue}\href{https://www.laposte.fr/}{(La Poste)}}}{Management,}{Paris 75012}{}{
-{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
-\item 	\textbf{Assistant de chef d'équipe:} coordination des tâches et le suivi opérationnel du service avec l’organisation quotidienne du travail, la répartition des missions et le suivi des priorités.
-\end{itemize}}}
+\customcventry{09/2009 ‐ 06/2011}{{\color{blue}\href{https://www.laposte.fr/}{(La Poste)}}}{Management,}{Paris 75012}{}
+{
+    {
+        \begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+        \item 	\textbf{Assistant de chef d'équipe:} coordination des tâches et le suivi opérationnel du service avec l’organisation quotidienne du travail, la répartition des missions et le suivi des priorités.
+        \end{itemize}
+    }
+}
 
 \section{Diplômes et certifications}
-{\begin{itemize}[label=\textbullet]
-      \item \textbf{Master et Maîtrise “Informatique - Réseaux”} (2024) - \underline{\color{blue}\href{https://www.sorbonne-universite.fr/}{Sorbonne Université}}
-      \item \textbf{Licence “Informatique et Applications”} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
-      \item \textbf{Diplôme universitaire de technologie "Informatique"} (2020) - \underline{\color{blue}\href{https://iutparis-seine.u-paris.fr/}{IUT de Paris}}
-      \item \textbf{Brevet de technicien supérieur “Management des Unités Commerciales”} (2011) - \underline{\color{blue}\href{http://lyc-arago.ac-paris.fr}{Lycée Arago}}
-     \item \textbf{Certification CECRL d’anglais niveau C1} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
-     \item \textbf{Formation Huawei Network Controller Engine} (2024) - \underline{\color{blue}\href{https://e.huawei.com}{Huawei}} 
-     \item \textbf{Google Cybersecurity Professional Certificate} (2025) - \underline{\color{blue}\href{https://www.coursera.org/account/accomplishments/specialization/JBFOU5FDFE4H}{Google Career}} 
-  \end{itemize}
+{
+    \begin{itemize}[label=\textbullet]
+    \item \textbf{Master et Maîtrise “Informatique - Réseaux”} (2024) - \underline{\color{blue}\href{https://www.sorbonne-universite.fr/}{Sorbonne Université}}
+    \item \textbf{Licence “Informatique et Applications”} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
+    \item \textbf{Diplôme universitaire de technologie "Informatique"} (2020) - \underline{\color{blue}\href{https://iutparis-seine.u-paris.fr/}{IUT de Paris}}
+    \item \textbf{Brevet de technicien supérieur “Management des Unités Commerciales”} (2011) - \underline{\color{blue}\href{http://lyc-arago.ac-paris.fr}{Lycée Arago}}
+    \item \textbf{Certification CECRL d’anglais niveau C1} (2021) - \underline{\color{blue}\href{https://u-paris.fr/}{Université de Paris}}
+    \item \textbf{Formation Huawei Network Controller Engine} (2024) - \underline{\color{blue}\href{https://e.huawei.com}{Huawei}} 
+    \item \textbf{Google Cybersecurity Professional Certificate} (2025) - \underline{\color{blue}\href{https://www.coursera.org/account/accomplishments/specialization/JBFOU5FDFE4H}{Google Career}} 
+    \end{itemize}
 } 
-\hspace*{\fill} \emph{CV codé en LaTeX: } \underline{\color{blue} \href{https://github.com/JackThay/CV_LaTeX}{code source}}
+
+%Signature
+\hspace*{\fill} \emph{CV codé en \LaTeX:} \underline{\color{blue} \href{https://github.com/JackThay/CV_LaTeX}{code source}}
 \end{document}
